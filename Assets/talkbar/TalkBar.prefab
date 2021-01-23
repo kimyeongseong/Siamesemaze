@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1088674921780900}
+  m_IsPrefabParent: 1
+--- !u!1 &1088674921780900
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224519409469677048}
+  - component: {fileID: 222023426366502176}
+  - component: {fileID: 114408756683416458}
+  - component: {fileID: 114617206829417730}
+  m_Layer: 0
+  m_Name: TalkBar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &114408756683416458
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088674921780900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 1cde00d8dec06fd45a107a5575e3c473, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114617206829417730
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088674921780900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a1f381caf29c7a46a1b329f5b7ec7dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Talk: {fileID: 1661682322809730, guid: 4da36c06a6cf90d45ba111e59920a11c, type: 2}
+  Talk1: {fileID: 1352362071707526, guid: 5a065e432fdfe0640b5fc94b3d612b2b, type: 2}
+  Talk2: {fileID: 1303761337165144, guid: aa2cf44fff7175a47980ef7cba65878e, type: 2}
+  Talk3: {fileID: 1338391034333076, guid: e6e07a79d2373cc4dab65b43743d0fa1, type: 2}
+  Talk4: {fileID: 1749570621974266, guid: f4a712db9bc933d4faffff9bc525d43f, type: 2}
+  Talk5: {fileID: 1381695600882938, guid: 85a051db7a8219c4e997b8c563fd2e36, type: 2}
+  Talk6: {fileID: 1943855186447960, guid: fa3221fc32d80aa458db10fc01f6cb7d, type: 2}
+  Talk7: {fileID: 1688253796376100, guid: d406c4068a636354ba3d94ab42904bd4, type: 2}
+  Talk8: {fileID: 1698649983168058, guid: f09ae2a703930fe4bbef2108a0ea6d28, type: 2}
+  Talk9: {fileID: 1200546976644020, guid: 3e6a98b2e3cf30247a5e44cb41da88f9, type: 2}
+  Talk10: {fileID: 1876183677218562, guid: feda47947d3e94e4285ffb40a4a05621, type: 2}
+  Talk11: {fileID: 1170777996968972, guid: a91a1c69b8332a24f965a83ac54e2f05, type: 2}
+  parent: {fileID: 0}
+  talknum: 0
+  tlakbar: 1
+  a: {fileID: 0}
+  talk23: 1
+--- !u!222 &222023426366502176
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088674921780900}
+--- !u!224 &224519409469677048
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088674921780900}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.010005, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -2, y: -181}
+  m_SizeDelta: {x: 1753.5, y: 348.6}
+  m_Pivot: {x: 0.5, y: 0.5}

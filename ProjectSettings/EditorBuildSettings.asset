@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/resource/scene/ck.unity
+    guid: 8d481b0bf35bd794b95c0e132dd272d3
+  - enabled: 1
+    path: Assets/resource/scene/MianMenu.unity
+    guid: 023d5c8d8f58b12438af21c29d0ac52f
+  - enabled: 1
+    path: Assets/resource/scene/start.unity
+    guid: bf98dced8c095b94ba2e8965b2607397
+  - enabled: 1
+    path: Assets/resource/scene/option.unity
+    guid: d4958c46ff6bbc24ea382274b4176ebb
+  - enabled: 1
+    path: Assets/resource/scene/howto.unity
+    guid: 1262d166fed825044a778234dd6d4807
+  - enabled: 1
+    path: Assets/resource/scene/credit.unity
+    guid: 7cd56e6b9f8b36847bbb2ea3e5fe1343
+  - enabled: 1
+    path: Assets/resource/scene/new/Stage1.unity
+    guid: a8b26268f7ab65049a1ace8f9f760dc2
+  - enabled: 0
+    path: Assets/resource/scene/Stage1.unity
+    guid: 511a595992b439046bcaca2f3ae9a2db
+  - enabled: 1
+    path: Assets/resource/scene/Stage2.unity
+    guid: 80592a299e43acd408b6eab1a2e113f2
+  - enabled: 1
+    path: Assets/resource/scene/Stage3.unity
+    guid: 777a0ce843610e7469f10e87c0803a6c
+  - enabled: 1
+    path: Assets/resource/scene/new/Stage4.unity
+    guid: d66231119cadf024d82dc93f141a4ce4
+  - enabled: 0
+    path: Assets/resource/scene/Stage4.unity
+    guid: 839a5480db2533d4b8b02f0a75a48bb5
+  - enabled: 1
+    path: Assets/resource/scene/new/Stage5.unity
+    guid: 28aff17c254b92a46a34fa6eb54ea6f9
+  - enabled: 0
+    path: Assets/resource/scene/Stage5.unity
+    guid: 7715595c1ee34e4409f05b1917f40232
+  - enabled: 1
+    path: Assets/resource/scene/new/Stage7.unity
+    guid: c6f17c45c915afa4d853d62f31b3bb12
+  - enabled: 0
+    path: Assets/resource/scene/Stage7.unity
+    guid: f24d01b49686fb34586f0fd7af6703e3
+  - enabled: 1
+    path: Assets/resource/scene/new/Stage6.unity
+    guid: fb61668d6c86e994a944b18f76989b1e
+  - enabled: 0
+    path: Assets/resource/scene/Stage6.unity
+    guid: 7ca9acbcd3766b94c86ed56335398d76
+  - enabled: 1
+    path: Assets/resource/scene/new/Boss.unity
+    guid: 08395e27b18b09147b145630f8723682
